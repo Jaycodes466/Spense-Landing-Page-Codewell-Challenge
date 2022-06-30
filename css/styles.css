@@ -22,6 +22,15 @@ img {
     width: 100%;
 }
 
+.title {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.text {
+     color: var(--text-color);
+     line-height: 1.6;
+}
 
 /* Launch Banner */
 .launch-banner {
@@ -201,16 +210,6 @@ img {
     padding-bottom: 2rem;
 }
 
-.hero-title {
-    font-size: 2rem;
-    padding-bottom: 1rem;
-}
-
-.hero-text {
-    color: var(--text-color);
-    line-height: 1.6;
-}
-
 .hero-features {
     padding: 1rem 0;
 }
@@ -271,15 +270,11 @@ img {
 }
 
 .escrow-title {
-    font-size: 2rem;
     width: 70%;
-    padding-bottom: 1rem;
 }
 
 .escrow-text {
     color: var(--text-color);
-    line-height: 1.6;
-    padding-bottom: 1rem;
 }
 
 .escrow-link {
@@ -296,15 +291,8 @@ img {
     padding: 4rem 1rem 2rem 1rem;
 }
 
-.text-editor-title {
-    font-size: 2rem;
-    padding-bottom: 1rem;
-}
-
 .text-editor-text {
     color: var(--text-color);
-    line-height: 1.6;
-    padding-bottom: 1rem;
 }
 
 .text-editor-link {
