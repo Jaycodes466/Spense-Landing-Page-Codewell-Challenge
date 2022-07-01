@@ -356,7 +356,7 @@ img {
     /* Header / Navbar */
 
     #navbar {
-        padding: 1rem 0;
+        padding: 1rem 2rem;
         height: auto;
     }
 
@@ -411,5 +411,103 @@ img {
     }
 
     /* Hero Section */
-   
+    .hero {
+        padding: 2rem 3rem;
+    }
+    /* Fix the photo */
+
+    .hero-title {
+        font-size: 2.8rem;
+        width: 70%;
+    }
+
+    .hero-text {
+        width: 90%;
+    }
+
+    /* Social Proof Section */
+    .social-proof {
+        margin: 4rem 3rem;
+        max-width: 100%;
+    }
+    .social-proof-image {
+        width: 21%;
+        height: 40px;
+    }
+
+    .twitter-logo {
+        padding-right: 3rem;
+    }
+    /* Escrow Section */
+    .escrow {
+        margin: 0 2rem;
+    }
+
+    .escrow-content-container {
+        padding: 3rem 4rem;
+    }
+
+    .escrow-title {
+        font-size: 2.4rem;
+    }
+
+    .escrow-text {
+        padding-bottom: 1rem;
+    }
+
+    .escrow-link {
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+
+    .escrow-img {
+        top: 50px;
+    }
+
+    /* Text Editor Section */
+    .text-editor {
+        margin: 0 2rem;
+    }
+
+    .text-editor-title {
+        font-size: 2.4rem;
+    }
+
+    .text-editor-text {
+        padding-bottom: 1rem;
+    }
+
+    .text-editor-link {
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+
+    /* Footer */
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer-logo {
+        font-size: 1.3rem;
+    }
+
+    .footer-header {
+        width: 50%;
+    }
+
+    .company-links-container, 
+    .opportunities-link-container {
+        position: relative;
+        top: 150px;
+        right: 450px;
+    }
+
+    .sitemap-link-container,
+    .resources-links-container {
+        position: relative;
+        bottom: 170px;
+    }
+    
 }
